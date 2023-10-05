@@ -34,11 +34,11 @@ app.post("/city", async (req, res) => {
   const enter = req.body.city;
   const options = {
     method: 'GET',
-    url: 'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather',
+    url: '',
     params: { city: enter },
     headers: {
-      'X-RapidAPI-Key': 'ad58ea6ffdmsh6a11da752713020p12657cjsn64865a3d4cb7',
-      'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
+      'X-RapidAPI-Key': '',
+      'X-RapidAPI-Host': ''
     }
   };
 
