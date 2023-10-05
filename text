@@ -1,0 +1,10 @@
+ <li><%=cloud_pct%></li>  
+ <li><%=temp%></li>
+ <li><%=feels_like%></li>
+ <li><%= humidity %></li>
+ <li><%=min_temp%></li>
+ <li><%=max_temp%></li>
+ <li><%=wind_speed%></li>
+ <li><%=wind_degrees%></li>
+ <li><%=sunrise%></li>
+ <li><%=sunset%></li>

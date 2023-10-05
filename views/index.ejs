@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="../public/layout/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="/city" method="post">
+                <input type="text" name="city" id="locate" placeholder="Enter your city">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="response-area">
+            <div class="data">
+                <h3>
+                    <%= City %>
+                </h3>
+            </div>
+            <div class="class"></div>
+            <h4>Cloud Pct : <%=cloud_pct%>
+            </h4>
+
+            <div class="class">
+                <h4>Temperature : <%=temp%>
+                </h4>
+            </div>
+            <div class="class">
+                <h4>Feels Like : <%=feels_like%>
+                </h4>
+            </div>
+            <div class="class">
+                <h4>Humidity : <%= humidity %>
+                </h4>
+            </div>
+            <div class="class">
+                <h4>Minimum Temp : <%=min_temp%>
+                </h4>
+            </div>
+            <div class="class">
+                <h4>Maximum Temp : <%=max_temp%>
+                </h4>
+            </div>
+            <div class="class">
+                <h4>Wind Speed : <%=wind_speed%>
+                </h4>
+            </div>
+            <div class="class">
+                <h4>Wind Degrees : <%=wind_degrees%>
+                </h4>
+            </div>
+            <div class="class">
+                <h4>Sunrise : <%=sunrise%>
+                </h4>
+            </div>
+            <div class="class">
+                <h4>Sunset : <%=sunset%>
+                </h4>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
